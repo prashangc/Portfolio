@@ -1,0 +1,353 @@
+/* html{
+    scroll-behavior: smooth;
+  } */
+body{
+    background-color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* width: 100%; */
+}
+
+.top_navigation{
+  box-shadow: 0 1px 4px rgba(88, 88, 88, 0.15);
+  height: 60px;
+  width: 100%;
+  display: flex;
+}
+.logo{
+    color: black; 
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 5%;
+    /* width: 10%; */
+}
+
+
+.main_nav{
+    width: 88%;
+
+}
+.nav_list{
+    list-style-type: none;
+    padding-right: 40px;
+    float: right;
+}
+
+.nav_list li{
+    display: inline;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.nav_list li a{
+    color: black;
+	text-decoration: none; 
+    padding: 15px;
+
+}
+
+.nav_list li a:hover{
+    color: blue;
+    border: 1px solid black;
+}
+
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.container{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 10%;
+    /* background-color: red; */
+}
+
+.intro{
+    /* background-color: red; */
+    align-self: center;
+    width: 50%;
+  
+}
+
+h1{
+    /* justify-content: center; */
+    text-align: center;
+    font-size:72px;
+}
+
+.intro_image{
+    /* background-color: green; */
+    width: 50%;  
+}
+.intro_image img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    justify-content: center;
+    width: 90%;
+    float: right;
+
+}
+
+.prashanna{
+    color: #4070F4;
+}
+
+
+.CV{
+    display: block;
+    margin: auto;
+    background-color: #4070F4;
+    color: #fff;
+    font-size: 18px;
+    width: 20%;
+    padding: 10px 14px 10px 14px;
+    border-radius: 5%;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+   }
+
+
+.social_media{
+    /* justify-content: center; */
+    margin-top: 2%;
+    text-align: center;
+    font-size: 30px;
+}
+.linkedin, .behance, .github{
+    color: #4070F4;
+}
+.title{
+    padding-top: 2%;
+    padding-bottom: 4%;
+    font-size: 40px;
+    position: relative;
+    color: #4070F4;
+    text-align: center;
+}
+
+title::after{
+    display: block;
+    /* position: absolute; */ 
+    /* border:1px solid #f30; */
+    width: 100%;
+    height: 10px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 2rem;
+    background-color: green;
+}
+
+.underline{
+    display: block;
+    margin: auto;
+    width: 10%;
+    height: 4px;
+    /* margin-top: 14.5px; */
+    background-color: #4070F4;
+    border-radius: .5rem;
+}
+
+.about_image{
+    width: 50%;
+    /* background-color: black; */
+}
+.about_image img{
+    width: 330px;   
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.about{
+    width: 50%;
+}
+
+.experience{
+    margin-top: -5%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 25px;
+    /* font-weight: bold; */
+}
+.introduction{
+   
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 20px;
+}
+
+
+
+.web{
+      width: 100%;
+      display: flex;
+      flex-direction: column;   
+
+}
+
+.mob{
+      width: 100%;
+      display: flex;
+      flex-direction: column;   
+      /* background-color: green; */
+}
+
+.web p, .mob p{
+      margin-left: 30%;
+      /* text-align: center; */
+}
+
+.arrow_down {
+    margin-bottom: 2px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.arrow_down:hover {
+    border: solid black;
+    border-width: 3px 0 0 0;
+    display: inline-block;
+    padding: 7px;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+.html5, .css3, .java, .dart, .js, .UI{
+    display: block;
+    margin: auto;
+    box-shadow: 1px 1px 4px rgba(5, 5, 5, 0.15);
+    width: 70%;
+    height: 42px;
+    margin-top: 3%;
+
+}
+
+
+
+
+
+.html5 i, .css3 i, .js i, .java img{
+    width: 40px;
+    font-size: 2rem;
+    color: #4070F4;
+    float: left;
+}
+.dart img, .UI img {
+    width: 25px;
+    font-size: 2rem;
+    color: #4070F4;
+    float: left;
+
+}
+.html5 span, .css3 span, .java span, .dart span, .js span, .UI span{
+    margin-left: 30px;
+    margin-bottom: 20px;    
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.percentage{
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    float: right;
+} 
+
+.progress_bar{
+    width: 100%;
+    height: 3px;
+}
+
+.skills_bar{
+    width: 85%;
+    height: 4px;
+    margin-top: 14.5px;
+    background-color: #4070F4;
+    border-radius: .5rem;
+}
+.skills_html{
+    width: 85%;
+}
+
+.skills_css{
+    width: 80%;
+}
+
+.skills_java{
+    width: 60%;
+}
+
+.skills_dart{
+    width: 40%;
+}
+
+.skills_js{
+    width: 20%;
+}
+
+.skills_UI{
+    width: 80%;
+}
+
+.container_two{
+    box-shadow: 1px 1px 10px 10px rgba(88, 88, 88, 0.15);
+    width: 80%;
+    padding: 3%;
+    margin-left: 7%;
+    margin-right: 10%;
+    border-radius: 1%;
+}
+
+.project{
+    display: flex;
+    flex-direction: row;    
+    margin-bottom:2%;
+    padding: 1%;
+    width: 94%;
+    height: 20px;
+    /* background-color: aquamarine; */
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    
+}
+
+
+.aa{
+    display: block;
+    width: 100%;
+    height: 1.5px;
+    margin-top: -2%;
+    background-color: #4070F4;
+    border-radius: .5rem;
+}
+
+
+footer{
+    margin-top: 10%;
+    background-color: #201e1e;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+  .footer__icon{
+    font-size: 30px;
+    color: #fff;
+  }
+  
+
+  
